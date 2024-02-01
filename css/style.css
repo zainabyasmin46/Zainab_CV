@@ -1,4 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    color: rgb(48, 48, 93);
+    width: 60%;
+    float: right;
+}
 aside{
-    background-color: #292954;
-    color: aliceblue;
+    background-color:  rgb(48, 48, 93);
+    color: whitesmoke;
+    width: 25%;
+    float: left;
+}
+.experience h2, .reference h2{
+    border-bottom: 2px solid rgb(48, 48, 93);
+}
+aside h2{
+    border-bottom: 2px solid whitesmoke;
+}
+.experience p{
+    border-left: 2px solid rgb(48, 48, 93);
+    padding: 15px;
+    margin-bottom: 50px;
+}
+section, aside{
+    padding: 50px ;
+}
+
+aside img{
+    height: 150px;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 500px;
+}
+h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.experience{
+    margin-top: 50px;
 }
